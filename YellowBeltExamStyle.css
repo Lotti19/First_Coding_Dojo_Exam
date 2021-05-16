@@ -1,0 +1,394 @@
+*   {
+    margin: 0px;
+    padding: 0px;
+}
+
+#wrapper    {
+    width: 970px;
+    height: 100%;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(117,45,32);
+    border-left: none;
+    border-right: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#banner     {
+    width: 250px;
+    display: inline-block;
+    padding-top: 30px;
+    padding-left: 10px;
+}
+
+.locator    {
+    display: inline-block;
+    width: 200px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.top    {
+    width: 300px;
+    height: 110px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.top a  {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.mininav    {
+    width: 240px;
+    height: 30px;
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(206,206,206);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top: none;
+    padding-left: 10px;
+    margin-left: 60px;
+}
+
+.mininav img    {
+    width: 15px;
+}
+
+.locator {
+    width: 250px;
+    height: 50px;
+    display: inline-block;
+    color: rgb(111,72,62);
+    font-size: 12px;
+    font-weight: bold;
+    padding-left: 50px;
+    margin-top: 20px;
+}
+
+.locator img    {
+    width: 25px;
+}
+
+.locator a  {
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 2px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#select-store   {
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+    padding-right: 5px;
+    margin-left: 5px;
+}
+
+.welcome    {
+    width: 225px;
+    height: 75px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 175px;
+}
+
+#wg     {
+    color: black;
+    font-size: 10px;
+    display: inline-block;
+    font-weight: bold;
+    vertical-align: top;
+    padding-left: 135px;
+    margin-bottom:5px;
+    margin-top: 15px;
+}
+
+.keyword    {
+    width: 205px;
+    height: 25px;
+    margin-left: 10px;
+    border-style: ridge;
+    border-color: silver;
+    border-width: 2px;
+}
+
+.welcome p   {
+    color: silver;
+    font-size: 15px;
+    padding-top: 5px;
+    font-weight: normal;
+    padding-left: none;
+}
+
+.welcome a  {
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 2px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+#border-sign-in     {
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+    padding-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+
+.welcome img    {
+    width: 20px;
+    padding-left: 58px;
+    display: inline-block;
+}
+
+.navbar     {
+    width: 970px;
+    height: 100%;
+    background-color: rgb(228,22,31);
+}
+
+.navbar a   {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    font-size: 15px;
+}
+
+.navbar ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 5px;
+}
+
+#shop-border a    {
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+    border-top: none;
+    border-bottom: none;
+}
+
+h1  {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: rgb(101,90,80);
+}
+
+.mid    {
+    width: 970px;
+    height: 315px;
+    display: inline-block;
+}
+
+.instore    {
+    width: 200px;
+    height:300px;
+    display: inline-block;
+    margin-left: 30px;
+    vertical-align: top;
+    border-style: solid;
+    border-width: 1px;
+    border-color: silver;
+    border-radius: 3px;
+}
+
+.mid img {
+    width: 60px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    margin-top: 20px;
+}
+
+.delivery   {
+    width: 200px;
+    height: 300px;
+    display: inline-block;
+    margin-left: 30px;
+    vertical-align: top;
+    border-style: solid;
+    border-width: 1px;
+    border-color: silver;
+    border-radius: 3px;
+}
+
+.driveup    {
+    width: 200px;
+    height: 300px;
+    display:inline-block;
+    margin-left: 30px;
+    vertical-align: top;
+    border-style: solid;
+    border-width: 1px;
+    border-color: silver;
+    border-radius: 3px;
+}
+
+.rush   {
+    width: 200px;
+    height: 300px;
+    display:inline-block;
+    margin-left: 30px;
+    vertical-align: top;
+    border-style: solid;
+    border-width: 1px;
+    border-color: silver;
+    border-radius: 3px;
+}
+
+.rush #smallcar {
+    width: 95px;
+    margin-top: 20px;
+    padding-top: 10px;
+}
+
+.mid h2 a   {
+    display: block;
+    margin-top: 30PX;
+    text-decoration: none;
+    color: rgb(101,90,80);
+}
+
+.instore h2 a {
+    margin-left: 60px;
+    padding-top: 10px;
+}
+
+.delivery h2 a  {
+    margin-left: 60px;
+    padding-top: 5px;
+}
+
+.driveup h2 a {
+    margin-left: 30px;
+}
+
+.rush h2 a {
+    margin-left: 30px;
+    padding-top: 15px;
+}
+
+.instore p {
+    margin-top: 40px;
+    font-size: 14px;
+    margin-left: 20px;
+}
+
+h3  {
+    color: red;
+    font-size: 14px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.delivery p {
+    margin-left: 15px;
+    font-size: 14px;
+}
+
+.driveup p {
+    margin-left: 15px;
+    font-size: 14px;
+}
+
+.rush p     {
+    margin-left: 15px;
+    font-size: 14px;
+}
+
+#rush {
+    margin-top: 10px;
+}
+
+.offer {
+    color: black;
+    margin-left: 15px;
+}
+
+span    {
+    font-weight: bold;
+}
+
+#main-banner     {
+    width: 700px;
+    margin-left: 25px;
+    display: inline-block;
+}
+
+.weekly-ad  {
+    width: 200px;
+    height: 260px;
+    display: inline-block;
+    vertical-align: top;
+    border-style: solid;
+    border-width: 1px;
+    border-color: silver;
+    border-radius: 3px;
+    margin-left: 10px;
+}
+
+.weekly-ad img {
+    width:190px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.weekly-ad p {
+    display: inline-block;
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+.weekly-ad a{
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 15px;
+    background-color: red;
+    color: white;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 5px;
+    border-style: ridge;
+    border-width: 2px;
+    border-color: red;
+}
+
+
+
+
